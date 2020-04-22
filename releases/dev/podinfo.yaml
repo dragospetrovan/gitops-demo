@@ -10,22 +10,13 @@ metadata:
 spec:
   releaseName: podinfo-dev
   chart:
-<<<<<<< HEAD
     git: git@github.com:dragospetrovan/gitops-demo.git
-=======
-    git: git@github.com:smcaine/gitops-demo.git
->>>>>>> 3b0573998f0cfc3a5b5ddf597fb05f04491b1913
     path: charts/podinfo
     ref: master
   values:
     image:
-<<<<<<< HEAD
       repository: dpetrovan/podinfo
       tag: dev-rcpgk0zq
-=======
-      repository: schaga/podinfo
-      tag: dev-hdtwcel9
->>>>>>> 3b0573998f0cfc3a5b5ddf597fb05f04491b1913
     replicaCount: 1
     hpa:
       enabled: false
