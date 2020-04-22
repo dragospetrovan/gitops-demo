@@ -16,7 +16,7 @@ spec:
   values:
     image:
       repository: dpetrovan/podinfo
-      tag: stg-lode6ivz
+      tag: stg-lgh1mud0
     replicaCount: 2
     hpa:
       enabled: true
