@@ -10,11 +10,11 @@ metadata:
 spec:
   releaseName: podinfo-prod
   chart:
-    git: git@github.com:<your repo>
+    git: git@github.com:smcaine/gitops-demo.git
     path: charts/podinfo
     ref: master
   values:
     image:
-      repository: <your registry>/podinfo
-      tag: 0.4.11
+      repository: schaga/podinfo
+      tag: 0.4.0
     replicaCount: 3
