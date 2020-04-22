@@ -15,8 +15,8 @@ spec:
     ref: master
   values:
     image:
-      repository: schaga/podinfo
-      tag: stg-9ij63o4c
+      repository: dpetrovan/podinfo
+      tag: stg-lode6ivz
     replicaCount: 2
     hpa:
       enabled: true
