@@ -17,6 +17,6 @@ spec:
     image:
       repository: dpetrovan/podinfo
       tag: dev-gltrhjqc
-    replicaCount: 0
+    replicaCount: 1
     hpa:
       enabled: false
