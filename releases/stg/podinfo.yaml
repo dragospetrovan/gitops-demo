@@ -17,9 +17,9 @@ spec:
     image:
       repository: dpetrovan/podinfo
       tag: stg-bzvcmpzf
-    replicaCount: 2
+    replicaCount: 0
     hpa:
       enabled: true
-      maxReplicas: 3
+      maxReplicas: 1
       cpu: 50
       memory: 256Mi
